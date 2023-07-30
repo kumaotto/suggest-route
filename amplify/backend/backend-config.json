@@ -26,7 +26,7 @@
     }
   },
   "geo": {
-    "map421b4db7": {
+    "map6df7e3dc": {
       "accessType": "AuthorizedAndGuestUsers",
       "dependsOn": [
         {
@@ -38,7 +38,7 @@
         }
       ],
       "isDefault": true,
-      "mapStyle": "VectorEsriStreets",
+      "mapStyle": "VectorHereExploreTruck",
       "providerPlugin": "awscloudformation",
       "service": "Map"
     }
