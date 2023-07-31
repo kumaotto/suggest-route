@@ -64,7 +64,7 @@
     }
   },
   "Parameters": {
-    "authsuggestroute7a91f4a6UserPoolId": {
+    "authsuggestroutef252c8c7UserPoolId": {
       "Type": "String"
     },
     "authRoleName": {
