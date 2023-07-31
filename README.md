@@ -6,7 +6,7 @@ amplifyのセットアップ
 amplify init 
 ```
 
-policyやgeoなどを作成する
+policyやマップなどを作成する
 ```
 amplify add geo
 
@@ -16,6 +16,19 @@ Do you want to use the default authentication and security configuration? Defaul
 ✔ Who can access this Map? · Authorized and Guest users
 ✔ Do you want to configure advanced settings? (y/N) · no
 ```
+
+検索機能を追加するために、Location searchを入れる
+```
+amplify add geo
+
+? Select which capability you want to add: Location search (search by places, addresses, coordinates)
+✔ Provide a name for the location search index (place index): · placeIndexhoge
+✔ Who can access this search index? · Authorized and Guest users
+Available advanced settings:
+- Search data provider (default: HERE)
+- Search result storage location (default: no result storage)
+```
+
 
 設定を繁栄させる
 ```

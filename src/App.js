@@ -1,7 +1,6 @@
 import { Amplify } from 'aws-amplify'
 import { MapView, LocationSearch } from '@aws-amplify/ui-react-geo';
 import awsconfig from './aws-exports';
-import mapboxgl from 'mapbox-gl';
 import '@aws-amplify/ui-react-geo/styles.css';
 import 'maplibre-gl/dist/maplibre-gl.css'
 import '@maplibre/maplibre-gl-geocoder/dist/maplibre-gl-geocoder.css'
@@ -16,8 +15,8 @@ function App() {
     <div>
       <MapView
         initialViewState={{
-          latitude: 37.8,
-          longitude: -122.4,
+          latitude: 35.6894,
+          longitude: 139.6917,
           zoom: 14,
         }}
       >

@@ -41,6 +41,23 @@
       "mapStyle": "VectorHereExploreTruck",
       "providerPlugin": "awscloudformation",
       "service": "Map"
+    },
+    "placeIndex775dd441": {
+      "accessType": "AuthorizedAndGuestUsers",
+      "dataProvider": "Here",
+      "dataSourceIntendedUse": "Storage",
+      "dependsOn": [
+        {
+          "attributes": [
+            "UserPoolId"
+          ],
+          "category": "auth",
+          "resourceName": "suggestroutef252c8c7"
+        }
+      ],
+      "isDefault": true,
+      "providerPlugin": "awscloudformation",
+      "service": "PlaceIndex"
     }
   }
 }
