@@ -5,7 +5,7 @@
   "unauthRoleName": {
     "Ref": "UnauthRoleName"
   },
-  "indexName": "placeIndex775dd441",
+  "indexName": "placeIndexcd0b1cb9",
   "dataProvider": "Here",
   "dataSourceIntendedUse": "Storage",
   "isDefault": true

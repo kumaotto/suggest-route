@@ -1,6 +1,6 @@
 export type AmplifyDependentResourcesAttributes = {
   "auth": {
-    "suggestroutef252c8c7": {
+    "suggestroutefc113de7": {
       "AppClientID": "string",
       "AppClientIDWeb": "string",
       "IdentityPoolId": "string",
@@ -11,13 +11,13 @@ export type AmplifyDependentResourcesAttributes = {
     }
   },
   "geo": {
-    "mapa233c65f": {
+    "map61ba18b7": {
       "Arn": "string",
       "Name": "string",
       "Region": "string",
       "Style": "string"
     },
-    "placeIndex775dd441": {
+    "placeIndexcd0b1cb9": {
       "Arn": "string",
       "Name": "string",
       "Region": "string"

@@ -1,6 +1,6 @@
 {
   "auth": {
-    "suggestroutef252c8c7": {
+    "suggestroutefc113de7": {
       "customAuth": false,
       "dependsOn": [],
       "frontendAuthConfig": {
@@ -26,7 +26,7 @@
     }
   },
   "geo": {
-    "mapa233c65f": {
+    "map61ba18b7": {
       "accessType": "AuthorizedAndGuestUsers",
       "dependsOn": [
         {
@@ -34,7 +34,7 @@
             "UserPoolId"
           ],
           "category": "auth",
-          "resourceName": "suggestroutef252c8c7"
+          "resourceName": "suggestroutefc113de7"
         }
       ],
       "isDefault": true,
@@ -42,7 +42,7 @@
       "providerPlugin": "awscloudformation",
       "service": "Map"
     },
-    "placeIndex775dd441": {
+    "placeIndexcd0b1cb9": {
       "accessType": "AuthorizedAndGuestUsers",
       "dataProvider": "Here",
       "dataSourceIntendedUse": "Storage",
@@ -52,7 +52,7 @@
             "UserPoolId"
           ],
           "category": "auth",
-          "resourceName": "suggestroutef252c8c7"
+          "resourceName": "suggestroutefc113de7"
         }
       ],
       "isDefault": true,
