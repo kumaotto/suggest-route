@@ -30,7 +30,7 @@ Available advanced settings:
 ```
 
 
-設定を繁栄させる
+設定を反映させる
 ```
 amplify push -y
 ```
